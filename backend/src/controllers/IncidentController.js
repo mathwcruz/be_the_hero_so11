@@ -3,7 +3,25 @@ const connection = require('../database/connection'); //importando o arquivo de 
 module.exports = {
   //método para listar todos os casos do banco
   async index(request, response) {
-    const incidents = await connection('incidents').select('*'); //pegando todos os campos da tabela 'incidents'
+    const { page = 1 } = request.query; //paginação
+
+    const [count] = await connection('incidents') //contando quantos casos há cadastrados
+    .count();
+
+    const incidents = await connection('incidents')
+    .join('ongs', 'ongs.id', '=', 'incidents.ong_id')
+    .limit(5) //no máximo 5 páginas
+    .offset((page - 1) * 5) 
+    .select([
+      'incidents.*', 
+      'ongs.name', 
+      'ongs.email', 
+      'ongs.whatsapp', 
+      'ongs.city', 
+      'ongs.uf'
+    ]); //pegando todos os campos da tabela 'incidents' e alguns da tabela de ongs
+
+    response.header('X-Total-Count', count['count(*)']); //retornando o total de casos cadastrados
 
     return response.json(incidents); //retornando os dados
   },
