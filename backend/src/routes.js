@@ -1,24 +1,24 @@
 const express = require('express'); //importando todas as funcionalidades do express
 
+const OngController = require('./controllers/OngController');
+const IncidentController = require('./controllers/IncidentController');
+
 const routes = express.Router(); //desacoplando o método de rotas do express
 
-//CONFIGURANDO AS ROTAS
+/* CONFIGURANDO AS ROTAS */
+//rota para listar todas as ongs
+routes.get('/ongs', OngController.index);
 
-/*
-Tipos de parâmetros:
-  Query Parms: parâetros nomeados enviados na rota após o simbolo '?', geralmente servem para filtro, paginação
-  Route Parms: parâmetros utilizados para identificar recursos
-  Request Body: Corpo da requisição utilizado para criar ou alterar recursos
-*/
+//rota para cadastro de uma nova ong
+routes.post('/ongs', OngController.create);
 
-routes.post('/users', (request, response) => {
-  const body = request.body;
+//rota para listar todos os casos
+routes.get('/incidents', IncidentController.index);
 
-  console.log(body);
-  return response.json({
-    evento: 'SO11',
-    aluno: 'matheus'
-  });
-});
+//rota para cadastro de um novo caso
+routes.post('/incidents', IncidentController.create);
+
+//rota para deletar um caso da ong
+routes.delete('/incidents/:id', IncidentController.delete);
 
 module.exports = routes; //exportando as rotas
