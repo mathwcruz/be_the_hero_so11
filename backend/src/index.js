@@ -10,4 +10,4 @@ app.use(express.json()); //utilizando o formato JSON para lidar com os dados
 
 app.use(routes);
 
-app.listen(3333);//escutando a porta 3333 (localhost:33333)
+app.listen(3333); //escutando a porta 3333 (http://localhost:33333)

@@ -7,8 +7,8 @@ module.exports = {
 
     const incidents = await connection('incidents')
     .where('ong_id', ong_id)
-    .select('*');
+    .select('*'); //pegando todos os dados ralativos àquela ong que criou o caso
 
-    return response.json(incidents);
+    return response.json(incidents); //retornando os dados ao front
   }
 };
