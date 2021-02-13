@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'; //sempre importar o 'React' quando for utilizar JSX (lidar com html)
+import './global.css'
+import Routes from './routes'; //importando as rotas
 
+//Um componente é uma função que retorna um conteúdo html
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  return ( //retornando o conteúdo html para a página, baseado na rota atual da página
+    <div>
+      <Routes /> {/* Chamando o componente de rotas */}
     </div>
   );
-}
+};
 
 export default App;

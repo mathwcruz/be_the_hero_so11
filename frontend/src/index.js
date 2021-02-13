@@ -1,17 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+import ReactDOM from 'react-dom'; //interação do react com a DOM do browser
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
+ReactDOM.render( // renderizar "render" é colocar em tela
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('root') //renderizando o que conteúdo imbutido no arquivo App.js no elemento com id = root, que é a div no html
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
