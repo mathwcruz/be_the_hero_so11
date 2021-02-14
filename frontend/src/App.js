@@ -1,5 +1,5 @@
 import React from 'react'; //sempre importar o 'React' quando for utilizar JSX (lidar com html)
-import './global.css'
+import './global.css';
 import Routes from './routes'; //importando as rotas
 
 //Um componente é uma função que retorna um conteúdo html

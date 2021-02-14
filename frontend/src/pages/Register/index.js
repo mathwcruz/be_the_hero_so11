@@ -6,7 +6,7 @@ import api from '../../services/api';
 
 import LogoImg from '../../assets/logo.svg';
 
-import './styles.css'
+import './styles.css';
 
 function Register() {
   //pegando os valores dos inputs do formulário, usando o conceito de Estado
@@ -39,15 +39,17 @@ function Register() {
       history.push('/'); //enviando o usuário para a rota de login após finalizar o seu cadastro
     } catch (err) {
       alert('Erro no cadastro, tente novamente, por favor');
-    }
-
+    };
   };
 
   return (
     <div className="register-container">
       <div className="content">
         <section>
-          <img src={LogoImg} alt="Be The Hero"/>
+          <img 
+            src={LogoImg} 
+            alt="Be The Hero"
+          />
 
           <h1>Cadastro</h1>
           <p>Faça seu cadastro, entre na plataforma e ajude pessoas a encontrarem os casos da sua ONG.</p>
@@ -56,6 +58,7 @@ function Register() {
             Voltar para o Logon
           </Link>
         </section>
+        
         <form onSubmit={handleRegister}> {/* chamando a função que cadastra uma nova ONG */}
         {/* IDEIA: criar mascara para os inputs */}
           <input 

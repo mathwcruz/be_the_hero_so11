@@ -6,8 +6,8 @@ import './styles.css';
 
 import api from '../../services/api';
 
-import heroesImg from '../../assets/heroes.png' //importando a imagem do banner
-import logoImg from '../../assets/logo.svg' //importando a imagem da logo
+import heroesImg from '../../assets/heroes.png'; //importando a imagem do banner
+import logoImg from '../../assets/logo.svg'; //importando a imagem da logo
 
 function Logon() {
   //pegando o valor do input de login, usando o conceito de Estado
@@ -28,7 +28,7 @@ function Logon() {
       history.push('/profile'); //enviando o usuário a página de casos
     } catch (err) {
       alert('Falha no login, tente novamente');
-    }
+    };
   };
 
   return(

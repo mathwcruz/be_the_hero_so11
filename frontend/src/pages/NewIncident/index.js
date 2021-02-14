@@ -36,8 +36,8 @@ function NewIndicent() {
       history.push('/profile'); //enviando o usuário para a area de casos cadastrados
     } catch (err) {
       alert('Erro ao cadastrar o caso, tente novamente');
-      //IDEA: Cria um modal
-    }
+      //IDEIA: Cria um modal
+    };
   };
 
   return (

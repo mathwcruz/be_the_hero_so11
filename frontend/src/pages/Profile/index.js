@@ -17,7 +17,8 @@ function Profile() {
   const history = useHistory();
 
   //função que irá pegar os casos respectivos da ONG logada e setar no html
-  useEffect(() => {
+  useEffect(() => {//o método useEffect() recebe dois parâmetros, a função a ser executada e quando executar essa função, é um array
+                  //se o array ficar vazio, ele irá executar apenas uma vez a função na página
     api.get('profile', {
       headers: {
         Authorization: ongId,
@@ -25,23 +26,21 @@ function Profile() {
     }).then(response => { //pegando todos os casos criados pela ong para setar no html
       setIncidents(response.data) //setando na variável 'incidents' todas as informações trazidas do backend
     }); 
-  }, [ongId]); //o método useEffedt() recebe dois parâmetros, a função a ser executada e quando executar essa função, é um array
-          //se o array ficar vazio, ele irá escutar apenas uma vez a função na página
+  }, [ongId]); 
 
   //função que irá deletar um caso
   async function handleDeleteIncident(id) {
     try {
       await api.delete(`incidents/${id}`, {
         headers: {
-          Authorization: ongId //passando o id da ONG que criou o caso para o back validar a removação
+          Authorization: ongId //passando o id da ONG que criou o caso para o back validar a remoção
         }
       }); //enviando o id do caso e usando o método 'delete' para deletar o caso no banco
-
       setIncidents(incidents.filter(incident => incident.id !== id)); //filtrando apenas os incidents que não foram deletados ao chamar a função
     } catch (err) {
       alert('Erro ao deletar o caso, tente novamente');
       //IDEIA: criar um modal
-    }
+    };
   };
 
   function handleLogout() {
@@ -52,15 +51,19 @@ function Profile() {
   return (
     <div className="profile-container">
       <header>
-        <img src={LogoImg} alt="Be The Hero"/>
+        <img 
+          src={LogoImg} 
+          alt="Be The Hero"
+        />
         <span>Bem vinda, {ongName}</span>
 
         <Link className="button" to="/incidents/new"> {/* Componente Link irá fazer a página não ser carregada, SPA */}
-          Cadastrar novo caso 
+          Cadastrar um novo caso 
         </Link>
+
         <button 
           type="button"
-          onClick={handleLogout} //ao clicar no botão, irá finalizar a sessão do usuário e mandá-lo aa área de login
+          onClick={handleLogout} //ao clicar no botão, irá finalizar a sessão do usuário e mandá-lo a área de login
           >
           <FiPower 
             size={ 18 } 
@@ -73,16 +76,16 @@ function Profile() {
 
       <ul>
         {incidents.map(incident => ( //percorrendo o array de indicents para setar cada caso na tela, com suas respectivas informações e retornando esses dados
-          <li key={incident.id}> {/* passando a propriedade 'key' para o react saber qual caso está sendo setado na página */}
-            <strong>CASO:</strong>
+          <li key={incident.id}> {/* passando a propriedade 'key' para o React saber qual caso está sendo setado na página */}
+            <strong>Caso:</strong>
             <p>{incident.title}</p>
 
-            <strong>DESCRIÇÃO:</strong>
+            <strong>Descrição:</strong>
             <p>{incident.description}</p>
 
-            <strong>VALOR:</strong>
+            <strong>Valor:</strong>
             <p>{Intl
-              .NumberFormat('pr-BR', { 
+              .NumberFormat('pt-BR', { 
                 style: 'currency', 
                 currency: 'BRL' }
               ).format(incident.value)}</p> {/* formatando a moeda prara R$ */}
@@ -94,8 +97,8 @@ function Profile() {
             >
               <FiTrash2 size={20} color="#a8a8b3"/>
             </button>
-        </li>
-        ))}
+          </li>
+        ))};
       </ul>
     </div>
   );
