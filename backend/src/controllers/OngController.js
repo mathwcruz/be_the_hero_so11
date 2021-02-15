@@ -1,6 +1,8 @@
 const crypto = require('crypto'); //importando o pacote responsável por criar um ID aleátorio para cada ong
 const connection = require('../database/connection'); //importando o arquivo de conexões
 
+const generateUniqueID = require('../utils/generateUniqueId');
+
 module.exports = {
   //método para listar todas as ongs do banco
   async index(request, response) {
@@ -13,7 +15,7 @@ module.exports = {
   async create(request, response) {
     const { name, email, whatsapp, city, uf } = request.body; //desestrturando as informações cadastrais de uma ong
 
-    const id = crypto.randomBytes(4).toString('HEX'); //criando um id aleatório, hexadecimal, com 4 bytes
+    const id = generateUniqueID() //criando um id aleatório, hexadecimal, com 4 bytes, chamando a função
 
     await connection('ongs').insert({ //inserindo na tabela ongs, as informações adquiridas no front
       id,

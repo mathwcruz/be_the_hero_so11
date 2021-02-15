@@ -1,0 +1,7 @@
+- (npm i celebrate) bibilioteca para validações no backend
+
+- (npm i jest) para baixar uma biblioteca que lida com testes
+
+- (npm i cross-env) para lidar com testes em um ambiente feito para isso
+
+- (npm i supertest -D) para lidar com API em ambiente de testes
