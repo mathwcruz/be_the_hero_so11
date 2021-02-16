@@ -8,20 +8,18 @@
 
 ## <p><h2 align="center">Aplicação que interliga ONGs àqueles que querem contribuir com a causa, desenvolvido na Semana OmniStack 11 ministrada pela [Rocketseat](https://app.rocketseat.com.br/dashboard)</h2> </p>
 
-## **<h3 align="center">Link para a [aplicação web](https://be-the-hero-semana-omnistack-11.netlify.app/)</h3>**
-
 # **Página de cadastro e de login de ONG - Web Layout** 💻
 
 <p align="center">
-  <img src="./github/desktop-login.gif" width="1400px"/>
+  <img src="./github/registerAndLogon.gif" width="1400px"/>
 </p>
 
 <br>
 
-# **Dashboard, Cadastro e Listagem de casos - Web Layout** 💻
+# **Listagem, cadastro e exclusão de casos - Web Layout** 💻
 
 <p align="center">
-  <img src="./github/desktop-dashboard.gif" width="1400px"/>
+  <img src="./github/ListAndNewCase.gif" width="1400px"/>
 </p>
 
 <br>
@@ -49,6 +47,7 @@ Para rodar a aplicação na web, siga as instruções:
 - Entre na pasta `frontend` 
 - `npm i` ou `yarn install` para instalar as dependências do projeto
 - Após ter baixado as dependências, rode `npm start` ou `yarn start` para rodar a aplicação
+- Link para a [aplicação web](https://be-the-hero-semana-omnistack-11.netlify.app/)
 
 <br>
 
