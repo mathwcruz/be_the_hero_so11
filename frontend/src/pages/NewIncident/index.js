@@ -35,8 +35,7 @@ function NewIndicent() {
 
       history.push('/profile'); //enviando o usuário para a area de casos cadastrados
     } catch (err) {
-      alert('Erro ao cadastrar o caso, tente novamente');
-      //IDEIA: Cria um modal
+      alert('Erro ao cadastrar o caso, tente novamente, por favor');
     };
   };
 

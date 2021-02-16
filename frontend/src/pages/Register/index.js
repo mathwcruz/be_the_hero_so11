@@ -34,7 +34,6 @@ function Register() {
       const response = await api.post('ongs', data); //fazendo um POST ao backend com os dados armazenados do input para enviar ao backend e criar uma nova ong no banco
 
       alert(`Seu ID de acesso: ${response.data.id}`); // mostrando ao usuário o seu ID após ter efetivado o seu cadastro com sucesso
-      //IDEIA: criar um modal mostrando esse dado
 
       history.push('/'); //enviando o usuário para a rota de login após finalizar o seu cadastro
     } catch (err) {

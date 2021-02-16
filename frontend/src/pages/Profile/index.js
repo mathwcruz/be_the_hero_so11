@@ -38,8 +38,7 @@ function Profile() {
       }); //enviando o id do caso e usando o método 'delete' para deletar o caso no banco
       setIncidents(incidents.filter(incident => incident.id !== id)); //filtrando apenas os incidents que não foram deletados ao chamar a função
     } catch (err) {
-      alert('Erro ao deletar o caso, tente novamente');
-      //IDEIA: criar um modal
+      alert('Erro ao deletar o caso, tente novamente, por favor');
     };
   };
 

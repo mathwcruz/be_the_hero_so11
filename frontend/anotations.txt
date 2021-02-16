@@ -2,4 +2,6 @@
 
 - (npm i react-router-dom) para configurar as rotas
 
--(npm i axios) para lidar com requisições HTTP para a API do backend
+- (npm i axios) para lidar com requisições HTTP para a API do backend
+
+- (npm i react-modal) para criação de Modais
