@@ -61,7 +61,7 @@ Para rodar o servidor, siga as instruções:
 - `npm i` ou `yarn install` para instalar as dependências do projeto
 - Após ter baixado as dependências, rode `npm start` ou `yarn start` para rodar o servidor
 
-### Autor
+### Author
 ---
 
 <a href="https://app.rocketseat.com.br/me/matheus-da-cruz-frontend">
