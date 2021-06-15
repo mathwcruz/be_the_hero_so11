@@ -11,7 +11,7 @@
 # **Página de cadastro e de login de ONG - Web Layout** 💻
 
 <p align="center">
-  <img src="./github/registerAndLogon.gif" width="1400px"/>
+  <img src="./.github/registerAndLogon.gif" width="1400px"/>
 </p>
 
 <br>
@@ -19,7 +19,7 @@
 # **Listagem, cadastro e exclusão de casos - Web Layout** 💻
 
 <p align="center">
-  <img src="./github/ListAndNewCase.gif" width="1400px"/>
+  <img src="./.github/ListAndNewCase.gif" width="1400px"/>
 </p>
 
 <br>
