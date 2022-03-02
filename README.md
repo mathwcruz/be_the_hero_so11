@@ -56,7 +56,7 @@ To run the application on the web, follow the instructions:
 <br>
 
 # Backend
-To run the application on the web, follow the instructions:
+To run the server, follow the instructions:
 - Go to `backend` folder
 - `npm i` or `yarn install` to install project dependencies
 - After downloading the dependencies, run `npm start` or `yarn start` to run the server
