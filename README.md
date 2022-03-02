@@ -1,14 +1,14 @@
 <h1 align="center">
-  <img src="./frontend/src/assets/logo.svg" alt="Logo do Be The Hero" width="200">
+  <img src="./frontend/src/assets/logo.svg" alt="Be The Hero logo" width="200">
 </h1>
 
 <br>
 
-## **<h2 align="center">Aplicação Front e Backend 📟 👨‍💻</h2>**
+## **<h2 align="center">Full Stack application 📟 👨‍💻</h2>**
 
-## <p><h2 align="center">Aplicação que interliga ONGs àqueles que querem contribuir com a causa, desenvolvido na Semana OmniStack 11 ministrada pela [Rocketseat](https://app.rocketseat.com.br/dashboard)</h2> </p>
+## <p><h2 align="center">Application that connects ONGs to those who want to contribute to the cause, developed at the OmniStack 11 Week taught by [Rocketseat](https://app.rocketseat.com.br/dashboard)</h2> </p>
 
-# **Página de cadastro e de login de ONG - Web Layout** 💻
+# **ONG registration and login page - Web Layout** 💻
 
 <p align="center">
   <img src="./.github/registerAndLogon.gif" width="1400px"/>
@@ -16,7 +16,7 @@
 
 <br>
 
-# **Listagem, cadastro e exclusão de casos - Web Layout** 💻
+# **Listing, registration and exclusion of cases - Web Layout** 💻
 
 <p align="center">
   <img src="./.github/ListAndNewCase.gif" width="1400px"/>
@@ -25,7 +25,7 @@
 <br>
 
 <h3 align="center"> 
-	Status da aplicação: Desenvolvido ✔️
+	Application status: Developed ✔️
 </h3>
 <br>
 
@@ -42,24 +42,24 @@
 <br>
 
 ## :information_source: Application installation
-- `git clone https://github.com/mathwcruz/be_the_hero_SO_11.git` para clonar o repositório
+- `git clone https://github.com/mathwcruz/be_the_hero_SO_11.git` to clone the repository
 
 <br>
 
 # Frontend
-Para rodar a aplicação na web, siga as instruções:
-- Entre na pasta `frontend` 
-- `npm i` ou `yarn install` para instalar as dependências do projeto
-- Após ter baixado as dependências, rode `npm start` ou `yarn start` para rodar a aplicação
-- Link para a [aplicação web](https://be-the-hero-semana-omnistack-11.netlify.app/)
+To run the application on the web, follow the instructions:
+- Go to `frontend` folder
+- `npm i` or `yarn install` to install project dependencies
+- After downloading the dependencies, run `npm start` or `yarn start` to run the application
+- Link to the [web application](https://be-the-hero-semana-omnistack-11.netlify.app/)
 
 <br>
 
 # Backend
-Para rodar o servidor, siga as instruções:
-- Entre na pasta `backend`
-- `npm i` ou `yarn install` para instalar as dependências do projeto
-- Após ter baixado as dependências, rode `npm start` ou `yarn start` para rodar o servidor
+To run the application on the web, follow the instructions:
+- Go to `backend` folder
+- `npm i` or `yarn install` to install project dependencies
+- After downloading the dependencies, run `npm start` or `yarn start` to run the server
 
 ### Author
 ---
@@ -69,18 +69,13 @@ Para rodar o servidor, siga as instruções:
  <br />
  <sub><b>Matheus da Cruz</b></sub></a> <a href="https://app.rocketseat.com.br/me/matheus-da-cruz-frontend" title="Rocketseat">  🚀</a>
 
-Desenvolvido por Matheus da Cruz 😊
-
 [![Linkedin Badge](https://img.shields.io/badge/-Matheus-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/matheus-cruz-frontend/)](https://www.linkedin.com/in/matheus-cruz-frontend/) 
 [![Gmail Badge](https://img.shields.io/badge/-matheuswachcruz@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:matheuswachcruz@gmail.com)](mailto:matheuswachcruz@gmail.com)
 <br>
 
 
-## **<p align="center">Muito obrigado ao pessoal da Rocketseat 🚀 pelo excelente conteúdo e didática, é nítido o impacto dessa empresa nos meus estudos 🙂</p>**
+## **<p align="center">First project developed with ReactJS 👨‍💻</p>**
 
-## **<p align="center">Primeiro projeto desenvolvido com ReactJS 👨‍💻</p>**
+## **<p align="center">Starting the walk to be able to participate in the marathon in this programming world 🏃‍</p>**
 
-## **<p align="center">Iniciando a caminhada para poder participar da maratona nesse mundo da programação 🏃‍</p>**
-
-### <p> <h2 align="center"> Mais uma aplicação realizada por Matheus da Cruz 👨‍💻 </h2> </p>
-
+### <p> <h2 align="center">Another application made by Matheus da Cruz 👨‍💻 </h2> </p>
