@@ -31,12 +31,12 @@
 
 ## :rocket: Technologies used:
 <p align="center">
-<img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain-wordmark.svg" alt="html5"  width="70" height="70"/>
-<img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" alt="css3" width="70" height="70"/>
-<img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-plain.svg" alt="node" width="70" height="70"/>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Sqlite-square-icon.svg/1200px-Sqlite-square-icon.svg.png" alt="sqlite" width="70" height="70"/>
-<img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" alt="react" width="70" height="70"/>
-<img src="https://jestjs.io/img/jest.png" alt="jest" width="70" height="70"/>
+<img src="https://xnrzwkuslogyvxcfkyyh.supabase.in/storage/v1/object/sign/projects-technologies-icons/html5_icon.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwcm9qZWN0cy10ZWNobm9sb2dpZXMtaWNvbnMvaHRtbDVfaWNvbi5zdmciLCJpYXQiOjE2NDYyNDYxOTQsImV4cCI6MTk2MTYwNjE5NH0.-BskkaDZ3OvYWL1qdFP-dY5FmyicAcs5n6P-ItqrrLc" alt="html5"  width="70" height="70"/>
+<img src="https://xnrzwkuslogyvxcfkyyh.supabase.in/storage/v1/object/sign/projects-technologies-icons/css3_icon.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwcm9qZWN0cy10ZWNobm9sb2dpZXMtaWNvbnMvY3NzM19pY29uLnN2ZyIsImlhdCI6MTY0NjI0NjIyMCwiZXhwIjoxOTYxNjA2MjIwfQ.Rgr9A5EicnCH-YRaCSlMglE3_Jif0H5KOnuvH1rUf5A" alt="css3" width="70" height="70"/>
+<img src="https://xnrzwkuslogyvxcfkyyh.supabase.in/storage/v1/object/sign/projects-technologies-icons/node_js_icon.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwcm9qZWN0cy10ZWNobm9sb2dpZXMtaWNvbnMvbm9kZV9qc19pY29uLnN2ZyIsImlhdCI6MTY0NjI0NjYxOSwiZXhwIjoxOTYxNjA2NjE5fQ.lty-KpuEy_L-G_ZUOXIOzkGzZ_FGFwSqE_trsYokg3g" alt="node" width="70" height="70"/>
+<img src="https://xnrzwkuslogyvxcfkyyh.supabase.in/storage/v1/object/sign/projects-technologies-icons/sqlite_icon.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwcm9qZWN0cy10ZWNobm9sb2dpZXMtaWNvbnMvc3FsaXRlX2ljb24ucG5nIiwiaWF0IjoxNjQ2MjQ2NjMxLCJleHAiOjE5NjE2MDY2MzF9.venNyYE3wsqMWBUydWnuBL5kd1x3ftMn_5K_7-YXgBM" alt="sqlite" width="70" height="70"/>
+<img src="https://xnrzwkuslogyvxcfkyyh.supabase.in/storage/v1/object/sign/projects-technologies-icons/react_icon.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwcm9qZWN0cy10ZWNobm9sb2dpZXMtaWNvbnMvcmVhY3RfaWNvbi5zdmciLCJpYXQiOjE2NDYyNDY1NjEsImV4cCI6MTk2MTYwNjU2MX0.rEGrv6fy9osG8okJAocY2LAe92rygmldkoNGTPggmvA" alt="react" width="70" height="70"/>
+<img src="https://xnrzwkuslogyvxcfkyyh.supabase.in/storage/v1/object/sign/projects-technologies-icons/jest_icon.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwcm9qZWN0cy10ZWNobm9sb2dpZXMtaWNvbnMvamVzdF9pY29uLnN2ZyIsImlhdCI6MTY0NjI0NjY1OCwiZXhwIjoxOTYxNjA2NjU4fQ.LO-7NJ7qCxw8x2B3wbnL4xzPM-qrt2WiXSxhxA2NJbo" alt="jest" width="70" height="70"/>
 </p>
 
 <br>
