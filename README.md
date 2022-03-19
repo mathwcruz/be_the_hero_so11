@@ -29,6 +29,12 @@
 </h3>
 <br>
 
+## :star: Features
+- [x] ONG register
+- [x] Registration of new cases involving the ONG
+- [x] List of ONG cases
+
+
 ## :rocket: Technologies used:
 <p align="center">
 <img src="https://xnrzwkuslogyvxcfkyyh.supabase.in/storage/v1/object/sign/projects-technologies-icons/html5_icon.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwcm9qZWN0cy10ZWNobm9sb2dpZXMtaWNvbnMvaHRtbDVfaWNvbi5zdmciLCJpYXQiOjE2NDYyNDYxOTQsImV4cCI6MTk2MTYwNjE5NH0.-BskkaDZ3OvYWL1qdFP-dY5FmyicAcs5n6P-ItqrrLc" alt="html5"  width="70" height="70"/>
