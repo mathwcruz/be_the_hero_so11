@@ -6,7 +6,7 @@
 
 ## **<h2 align="center">Full Stack application 📟 👨‍💻</h2>**
 
-## <p><h2 align="center">Application that connects ONGs to those who want to contribute to the cause, developed at the OmniStack 11 Week taught by [Rocketseat](https://app.rocketseat.com.br/dashboard)</h2> </p>
+## <p><h2 align="center">Application that connects ONGs to those who want to contribute to the cause</h2> </p>
 
 # **ONG registration and login page - Web Layout** 💻
 
