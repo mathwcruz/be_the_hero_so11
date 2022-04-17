@@ -4,9 +4,9 @@
 
 <br>
 
-## **<h2 align="center">Full Stack application 📟 👨‍💻</h2>**
+<h2 align="center">Full Stack application 📟 👨‍💻</h2>
 
-## <p><h2 align="center">Application that connects ONGs to those who want to contribute to the cause</h2> </p>
+<H3 align="center">Application that connects ONGs to those who want to contribute to the cause</h3>
 
 # **ONG registration and login page - Web Layout** 💻
 
@@ -80,8 +80,8 @@ To run the server, follow the instructions:
 <br>
 
 
-## **<p align="center">First project developed with ReactJS 👨‍💻</p>**
+<p align="center">First project developed with ReactJS 👨‍💻</p>
 
-## **<p align="center">Starting the walk to be able to participate in the marathon in this programming world 🏃‍</p>**
+<p align="center">Starting the walk to be able to participate in the marathon in this programming world 🏃‍</p>
 
-### <p> <h2 align="center">Another application made by Matheus da Cruz 👨‍💻 </h2> </p>
+<h2 align="center">Another application developed by Matheus da Cruz 👨‍💻 </h2>
