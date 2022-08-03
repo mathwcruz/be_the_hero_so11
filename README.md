@@ -15,7 +15,7 @@
 # **Listing, registration and exclusion of cases - Web Layout** 💻
 
 <p align="center">
-  <img src="./.github/ListAndNewCase.gif" width="1400px"/>
+  <img src="./.github/ListAndNewCase.gif" width="100%"/>
 </p>
 
 <h3 align="center"> 
